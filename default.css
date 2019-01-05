@@ -1,3 +1,4 @@
+@charset "utf-8";
 	html, body
 	{
 		height: 100%;
@@ -457,26 +458,26 @@
 /* Wrapper                                                                       */
 /*********************************************************************************/
 
-	#wrapper1
+	.wrapper1
 	{
 		background: #FFF;
 	}
 
-	#wrapper2
+	.wrapper2
 	{
 		overflow: hidden;
 		padding: 0em 0em 8em 0em;
 		background: #2E8B57;
 	}
 
-	#wrapper3
+	.wrapper3
 	{
 		overflow: hidden;
 		padding: 0em 0em 8em 0em;
 		background: #FFF;
 	}
 	
-	#wrapper4
+	.wrapper4
 	{
 		overflow: hidden;
 		padding: 8em 0em 4em 0em;
@@ -486,7 +487,7 @@
 /* Welcome                                                                       */
 /*********************************************************************************/
 
-	#welcome
+	.welcome
 	{
 		overflow: hidden;
 		padding: 8em 10% 0;
@@ -495,29 +496,29 @@
 		min-width: 75%;
 	}
 	
-	#welcome .box
+	.welcome .box
 	{
 		text-align: center;
 		color: rgba(255,255,255,0.7);
 	}
 
-	#welcome .content
+	.welcome .content
 	{
 		padding: 0em 8em;
 	}
 	
-	#welcome .title h2
+	.welcome .title h2
 	{
 		color: rgba(255,255,255,1);
 	}
 	
-	#welcome a,
-	#welcome strong
+	.welcome a,
+	.welcome strong
 	{
 		color: rgba(255,255,255,0.6);
 	}
 
-	#welcome .inner
+	.welcome .inner
 	{
 		flex-wrap: wrap;
 		justify-content: center;
@@ -528,10 +529,10 @@
 		display: flex;
 	}
 
-	#welcome .column1,
-	#welcome .column2,
-	#welcome .column3,
-	#welcome .column4
+	.welcome .column1,
+	.welcome .column2,
+	.welcome .column3,
+	.welcome .column4
 	{
 		min-width: 256px;
 		margin-top: 2em;
@@ -541,7 +542,7 @@
 /* Exchange                                                                      */
 /*********************************************************************************/
 
-	#exchange
+/*	#exchange
 	{
 		max-width: 1200px;
 		padding-top: 8em;
@@ -614,13 +615,13 @@
 		min-width: 256px;
 		margin-top: 2em;
 		margin-bottom: 4em;
-	}
+	}*/
 
 /*********************************************************************************/
 /* Shop                                                                          */
 /*********************************************************************************/
 
-	#shop
+/*	#shop
 	{
 		overflow: hidden;
 		padding: 8em 10% 0;
@@ -664,7 +665,7 @@
 		max-width: 256px;
 		margin-top: 2em;
 		margin-bottom: 4em;
-	}
+	}*/
 
 /*********************************************************************************/
 /* Page                                                                          */
@@ -703,7 +704,7 @@
 	
 	#footer .title h2
 	{
-		color: rgba(255,255,255,1);
+		color: rgba(0,0,0,0.8)
 	}
 
 
@@ -765,19 +766,19 @@
 /* Portfolio                                                                     */
 /*********************************************************************************/
 
-	#portfolio
+	.portfolio
 	{
 		max-width: 1200px;
 		padding-top: 8em;
 	}
 	
-	#portfolio .box
+	.portfolio .box
 	{
 		text-align: center;
 		color: rgba(0,0,0,0.7);
 	}
 	
-	#portfolio h3
+	.portfolio h3
 	{
 		display: block;
 		padding-bottom: 1em;
@@ -786,18 +787,18 @@
 		color: rgba(0,0,0,0.9);
 	}
 
-	#portfolio .title
+	.portfolio .title
 	{
 		margin-bottom: 5em;
 		text-align: center;
 	}
 
-	#portfolio .title h2
+	.portfolio .title h2
 	{
 		color: rgba(0,0,0,0.8);
 	}
 
-	#portfolio .title .byline
+	.portfolio .title .byline
 	{
 		letter-spacing: normal;
 		text-transform: capitalize;
@@ -805,7 +806,7 @@
 		color: rgba(0,0,0,0.6);
 	}
 	
-	#portfolio .icon
+	.portfolio .icon
 	{
 		display: inline-block;
 		margin-bottom: 1em;
@@ -813,13 +814,13 @@
 		color: rgba(0,0,0,0.8);
 	}
 
-	#portfolio.downloads a
+	.portfolio.downloads a
 	{
 		text-decoration: none;
 		color: #261300;
 	}
 
-	#portfolio .inner
+	.portfolio .inner
 	{
 		flex-wrap: wrap;
 		justify-content: center;
@@ -830,10 +831,10 @@
 		display: flex;
 	}
 
-	#portfolio .column1,
-	#portfolio .column2,
-	#portfolio .column3,
-	#portfolio .column4
+	.portfolio .column1,
+	.portfolio .column2,
+	.portfolio .column3,
+	.portfolio .column4
 	{
 		min-width: 256px;
 		margin-top: 2em;
